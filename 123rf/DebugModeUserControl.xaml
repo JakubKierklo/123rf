@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="_123rf.DebugModeUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_123rf"
+             mc:Ignorable="d" 
+             Height="300" Width="500" >
+    <Grid>
+        <CheckBox x:Name="DebugMode" Content="Tryb Debug" HorizontalAlignment="Left" Margin="52,230,0,0" VerticalAlignment="Top" Checked="DebugMode_Checked"/>
+
+    </Grid>
+</UserControl>

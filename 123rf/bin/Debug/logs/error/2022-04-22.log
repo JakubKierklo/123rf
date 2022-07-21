@@ -1,0 +1,24 @@
+2022-04-22 20:24:14.9058 ERROR OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.127)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElements(By by)
+   at _123rf.BrowserControl.MoveToItem(By idElement) in E:\Programowanie\123rf\123rf\123rf\BrowserControl.cs:line 245
+   at _123rf.BrowserControl.StartApp() in E:\Programowanie\123rf\123rf\123rf\BrowserControl.cs:line 118
+2022-04-22 20:29:54.8744 ERROR OpenQA.Selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at _123rf.BrowserControl.ElementOnlyClickUsingGreaterTimeSpan(By idElement) in E:\Programowanie\123rf\123rf\123rf\BrowserControl.cs:line 161
+   at _123rf.BrowserControl.StartApp() in E:\Programowanie\123rf\123rf\123rf\BrowserControl.cs:line 119
